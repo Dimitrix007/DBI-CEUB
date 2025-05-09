@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3709D33-140D-B52F-EDDF-21C93F5429D1" name="Relation_7">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-09 00:47:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pedido_id" id="B9517DCD-932F-7DA3-9AE5-63AAD1401BEA">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-09 00:47:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A8E9A44-CF3D-6605-9A97-614A80EF6D90" referredColumn="9AB99E2D-BBA1-8378-06B8-C94DF4E7BBD2"/>
+</associations>
+</Column>
+<Column name="Vendedor_id" id="880A0D98-5B69-9B82-F758-5BE95888BF39">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-09 00:47:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAEF2E36-B32D-1581-29EE-B40ED13A24E9" referredColumn="C8A8B683-F5F5-D26C-FF6C-06995BAB8A36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BED1B9B6-6E14-3EF9-5406-7390394BE2DA" name="Relation_7_PK">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-09 00:47:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9517DCD-932F-7DA3-9AE5-63AAD1401BEA"/>
+<colUsage columnID="880A0D98-5B69-9B82-F758-5BE95888BF39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9901F879-EE98-C391-76B2-4C4B926CA89E" name="Relation_7_Pedido_FK">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-09 00:47:17 UTC</createdTime>
+<generatorID>D8E0236E-C2B1-7D44-B89A-8DEF21AF7A90</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9517DCD-932F-7DA3-9AE5-63AAD1401BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FDE35D3-72EF-2A8D-C69D-C2D05187FB0A" name="Relation_7_Vendedor_FK">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-09 00:47:17 UTC</createdTime>
+<generatorID>D8E0236E-C2B1-7D44-B89A-8DEF21AF7A90</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="880A0D98-5B69-9B82-F758-5BE95888BF39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
