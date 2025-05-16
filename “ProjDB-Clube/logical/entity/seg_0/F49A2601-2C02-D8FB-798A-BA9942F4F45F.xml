@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F49A2601-2C02-D8FB-798A-BA9942F4F45F" name="Telefone ">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:31:59 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ddTelefone" id="D2FD81D4-FA4B-0512-2251-AC226D7B3F00">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:33:15 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefon" id="C325DCFB-B8BB-6E5B-C93D-E0D23CB77809">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:33:29 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="31C256F2-6D77-9538-31B8-CF6550736814">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:29:18 UTC</createdTime>
+<generatorID>C5343E40-03F0-87E4-1F69-EF405224AA8C</generatorID>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<referedAttribute>6CA775DF-45F4-B48C-DAD5-89DE17AC7722</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="3EFB6DD1-E909-8335-FE2F-9F4C2E4971C5">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:40:01 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C473B5C-9382-BAA3-E5DF-529493A0F7EA" name="Telefone PK">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:40:04 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EFB6DD1-E909-8335-FE2F-9F4C2E4971C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

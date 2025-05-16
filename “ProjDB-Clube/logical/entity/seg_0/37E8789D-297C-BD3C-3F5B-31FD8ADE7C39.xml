@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37E8789D-297C-BD3C-3F5B-31FD8ADE7C39" name="Dependente">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:42:46 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeTitular" id="4FE45D28-8F74-6A9A-87FA-BDA2C613DA42">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:46:05 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="6CA775DF-45F4-B48C-DAD5-89DE17AC7722">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:47:00 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="15832107-45C1-8975-EEE7-5E459F373046">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:44:07 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="ED38DA71-AF02-EA75-0DC5-D3749E4C22E4">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:44:15 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoDependente" id="214E2D6E-8A7F-05A3-FD89-64FE38016AC3">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:44:25 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentescoDependente" id="BA346315-3F03-45AA-97A9-F5A405BB9539">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:48:11 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9957BD5B-32A4-8A90-967F-1C23D19A363C">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:39:55 UTC</createdTime>
+<generatorID>3B21EF86-A117-12F4-AD21-0CD440446E1E</generatorID>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<referedAttribute>A54174B4-D4B4-5529-F785-422C91653FC5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B3BB1CB-F128-D01F-734F-C65B65BD9334" name="Dependente PK">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:47:31 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CA775DF-45F4-B48C-DAD5-89DE17AC7722</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

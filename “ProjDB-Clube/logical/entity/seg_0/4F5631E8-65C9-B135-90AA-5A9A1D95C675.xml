@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F5631E8-65C9-B135-90AA-5A9A1D95C675" name="Mensalidade Titular">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:38:12 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="valorMensalidadeTitular" id="E885D986-72E5-4F64-6AD2-EA20C8D11EC6">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:38:23 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validadeMensalidadeTitular" id="D2B039DB-831B-4AB8-03A8-F8E2BE57FEC3">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-15 23:38:40 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referenciaMensalidadeTitular" id="82E6CF3F-BC5B-867E-1EC1-E086B5E4C4D1">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:05:55 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamentoTitular" id="CC1E781F-F7DE-D5EE-F429-238D5E5CDDF2">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:06:11 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="4DA725C5-5E4B-6F30-1992-37D88121B002">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:06:30 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEDBE748-9ABE-2E47-558D-9498B88AE998" name="Mensalidade Titular PK">
+<createdBy>dimitri.batista</createdBy>
+<createdTime>2025-05-16 00:06:51 UTC</createdTime>
+<ownerDesignName>“ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="6DA6D8B4-3CFD-A2F6-B8A8-89A42AF67CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DA725C5-5E4B-6F30-1992-37D88121B002</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
